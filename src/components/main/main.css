@@ -1,0 +1,142 @@
+.main {
+  background: #eceef2;
+}
+.main-content {
+  margin: 4em 2em;
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+form {
+  background: #fff;
+  width: 300px;
+  padding: 0.5em;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+form input {
+  border: none;
+}
+input::placeholder {
+  color: #ccd6e8;
+  outline: none;
+}
+input:focus {
+  border: none;
+  outline: none;
+}
+
+form svg {
+  margin-right: 1em;
+  color: #aab8c6;
+}
+.notice {
+  font-size: 3rem;
+  color: #768492;
+  cursor: pointer;
+}
+.notice:hover {
+  color: #5e81f4;
+}
+
+.all {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 2em 0;
+}
+
+.all h3 {
+  color: #011f3b;
+}
+.all li {
+  color: rgba(118, 132, 146, 80%);
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 200ms ease;
+  font-weight: 600;
+}
+.all li:hover {
+  color: #5e81f4;
+}
+
+.all li + li {
+  margin-left: 3em;
+}
+.list-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.design {
+  background: url(../../image/Mask2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+  border-radius: 7px;
+  padding: 1.5em;
+  color: rgba(255, 255, 255, 80%);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h3 {
+  margin-bottom: 0.5em;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+.bottom-img img {
+  border-radius: 50%;
+  border: 2px solid whitesmoke;
+}
+
+.wrapper {
+  display: flex;
+  margin: 2em 0;
+}
+
+.design2 {
+  background: url(../../image/Mask.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+  border-radius: 7px;
+  padding: 1.5em;
+  color: rgba(255, 255, 255, 80%);
+  display: flex;
+  flex-direction: column;
+}
+.design3 {
+  background: url(../../image/Mask1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+  border-radius: 7px;
+  padding: 1.5em;
+  color: rgba(255, 255, 255, 80%);
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+}

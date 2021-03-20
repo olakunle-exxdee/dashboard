@@ -1,0 +1,81 @@
+.aside {
+  padding: 2em;
+  text-align: center;
+}
+
+.logo h1 {
+  color: #5e81f4;
+  font-size: 2rem;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+}
+.img-logo {
+  margin-right: 1em;
+  width: 50px;
+}
+.list {
+  margin-bottom: 6em;
+}
+
+.item {
+  font-size: 1.5rem;
+  color: #8da1b5;
+  display: flex;
+  align-items: center;
+  margin: 2em 0;
+  cursor: pointer;
+}
+.item:hover {
+  color: #272829;
+}
+.item:hover svg {
+  color: #5e81f4;
+}
+.item svg {
+  font-size: 20px;
+  color: #c7cadd;
+  margin-right: 0.5em;
+}
+
+.btn {
+  cursor: pointer;
+  background: #5e81f4;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+.btn-join {
+  padding: 1em;
+  width: 100%;
+}
+
+.upgrade {
+  background: #f5f5fb;
+  padding: 2em 1em;
+  color: #778dad;
+  position: relative;
+  border-radius: 10px;
+}
+.upgrade p {
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+.upgrade-img-con {
+  position: absolute;
+  top: -10px;
+  right: 75px;
+}
+
+.btn-upgrade {
+  padding: 0.75em 1.75em;
+  font-weight: 400;
+}

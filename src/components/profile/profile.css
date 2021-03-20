@@ -1,0 +1,188 @@
+img {
+  width: 40px;
+  height: 40px;
+}
+
+.profile {
+  background: #fafafa;
+  padding: 2em;
+  color: #011f3b;
+}
+.heading {
+  font-weight: bolder;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+.info p {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.info img {
+  border-radius: 10px;
+}
+.info p {
+  margin-left: 1em;
+}
+.info span {
+  margin-left: 1em;
+}
+
+.progress {
+  margin: 2em 0;
+}
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2em 0;
+}
+.product-img {
+  padding: 0.5em;
+}
+
+.title {
+  font-size: 1.2rem;
+  text-align: left;
+  color: #83919e;
+}
+.title p:nth-child(1) {
+  font-weight: bold;
+  color: #011f3b;
+}
+.product-img img {
+  width: 30px;
+  height: 30px;
+}
+/* .product > {
+  margin-left: 2em;
+} */
+
+.product:nth-child(2) {
+}
+.product:nth-child(2) .product-img {
+  background: #eef2fd;
+}
+
+progress {
+  -webkit-appearance: none;
+  overflow: hidden;
+  border-radius: 15px;
+  height: 5px;
+  width: 100px;
+}
+
+progress::-webkit-progress-bar {
+  background: rgba(94, 129, 244, 20%);
+}
+progress::-webkit-progress-value {
+  background: #5e81f4;
+  color: #5e81f4;
+}
+progress::-moz-progress-bar {
+  background: rgba(94, 129, 244, 20%);
+}
+progress::-moz-progress-value {
+  background: #5e81f4;
+  color: #5e81f4;
+}
+
+.photo-pro::-webkit-progress-bar {
+  background: rgba(12, 196, 233, 18%);
+}
+.photo-pro::-webkit-progress-value {
+  background: #0cc3e7;
+  color: #5e81f4;
+}
+.photo-pro::-moz-progress-bar {
+  background: rgba(12, 196, 233, 18%);
+}
+.photo-pro::-moz-progress-value {
+  background: #0cc3e7;
+}
+
+.anime::-webkit-progress-bar {
+  background: rgba(255, 174, 51, 20%);
+}
+.anime::-webkit-progress-value {
+  background: #ffae33;
+}
+.anime::-moz-progress-bar {
+  background: rgba(255, 174, 51, 20%);
+}
+.anime::-moz-progress-value {
+  background: #ffae33;
+}
+
+.product:nth-child(3) .product-img {
+  background: #d5f5fb;
+}
+
+.product:nth-child(4) .product-img {
+  background: #ffefd6;
+}
+
+.product-1 {
+  display: flex;
+  align-items: center;
+  margin: 2em 0;
+}
+.product-1 .product-img {
+  background: #eef2fd;
+}
+.product-1 .product-img-1 {
+  background: #ffefd6;
+}
+
+.product-1 .title {
+  margin-left: 4em;
+}
+.download {
+  background: #f5f5fb;
+  position: relative;
+  padding: 0.5em 2em 4em 2em;
+}
+
+.store {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+}
+.store img {
+  width: 15px;
+  height: 15px;
+}
+.playstore,
+.apple {
+  background: #fff;
+  padding: 0.5em;
+  border-radius: 50%;
+  align-self: center;
+}
+.apple {
+  margin-left: 1em;
+}
+
+.person {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.up,
+.down {
+  position: absolute;
+}
+.down {
+  bottom: 0;
+  left: 0;
+}
+.up {
+  top: 0;
+  right: 0;
+}
